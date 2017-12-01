@@ -1,0 +1,9 @@
+{
+  "name": "Chrome Rainbow",
+  "description": "Display WashPost Rainbow grid on the new tab page",
+  "version": "0.1",
+  "incognito": "split",
+  "chrome_url_overrides": {"newtab": "rainbow.html"},
+  "permissions": ["bookmarks", "history", "storage"],
+  "manifest_version": 2
+}
