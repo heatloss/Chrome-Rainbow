@@ -1,0 +1,19 @@
+#brights {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#brights img {
+	width: 400px;
+	height: 400px;
+	flex: 0;
+}
+
+@media (max-width: 1200px) {
+
+	#brights img {
+		width: 50vw;
+		height: 50vw;
+	}
+
+}
