@@ -1,10 +1,11 @@
 body {
-	background-color: #F7F7F7;
+	background-color: #f0f0f0;
+	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #logoDate {
 	width: 1500px;
-	margin: 50px auto 70px auto;
+	margin: 60px auto 70px auto;
 }
 
 #WaPoLogo {
@@ -21,13 +22,13 @@ body {
 #todaysDate {
 	display: block;
 	margin-top: 15px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #333;
 }
 
 #endMark {
 	font-family: "Minion Pro", Didot, "Bodoni 72", Georgia, serif;
-	margin: 140px 0;
+	margin: 135px 0;
 	font-size: 48px;
 	color: #333;
 	text-align: center;
@@ -44,15 +45,13 @@ body {
 #brights a {
 	width: 300px;
 	height: 300px;
-	background-color: #E9E9E9;
-	border: 1px solid #F7F7F7;
-	box-sizing: border-box;
+	background-color: #e0e0e0;
+	margin: 1px;
 }
 
 #brights img {
-	width: calc(100% + 2px);
-	height: calc(100% + 2px);
-	margin: -1px;
+	width: 100%;
+	height: 100%;
 	/* 	animation: 0.25s cubic-bezier(0,1,0,1) 0s 1 transitionIn; */
 }
 
